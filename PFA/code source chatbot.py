@@ -1,5 +1,5 @@
 import openai 
-openai.api_key =  "The API key you copied earlier"
+openai.api_key =  "The API key copied from OpenAI platforme"
 def chat_with_gpt(prompt):
     response = openai.ChatCompletion.create(
         model="gpt-4-turbo",
