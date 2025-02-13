@@ -13,7 +13,8 @@ def chat_with_gpt(prompt):
 if __name__ == '__main__':
     while True:
         user_input = input("Vous: ")
-        if user_input.lower() in ["quit", "exit", "bye"]:
+        if user_input.lower() in ["quit", "exit", "Au revoir", "bye"]:
+            print("TravelPal: Bye!")
             break
             
         response = chat_with_gpt(user_input)
